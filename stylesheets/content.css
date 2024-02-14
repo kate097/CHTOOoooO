@@ -230,5 +230,20 @@ body {
     animation: heartMoving 0.8s steps(2) infinite;
 }
 
+.card:active {
+	transform: translate(-50%,-50%) perspective(2000px) rotate(15deg) scale(1.2);
+	box-shadow: inset 20px 0 50px rgba(133, 117, 155, 0.2), 10px 10px 10px rgba(108, 54, 84, 0.2);
+}
+
+.card:active .imgBox {
+	transform: rotateY(-135deg);
+}
+
+.card:active .bark {
+	opacity: 1;
+	transition: .2s ease-in;
+    box-shadow: 1vw 0.5vw 2vw rgba(123, 62, 101, 0.4) inset;
+}
+
 
 }
