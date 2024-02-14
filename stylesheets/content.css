@@ -158,18 +158,6 @@ body {
 }
 
 
-#b {
-    display: none;
-}
-
-#a {
-    display: block;
-}
-
-
-
-
-
 
 @media (max-width: 850px) {
     
@@ -242,12 +230,5 @@ body {
     animation: heartMoving 0.8s steps(2) infinite;
 }
 
-#a {
-    display: none;
-}
-
-#b {
-    display: block;
-}
 
 }
