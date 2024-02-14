@@ -157,6 +157,20 @@ body {
 	padding: 0 0 0 0.2vw;
 }
 
+
+#b {
+    display: none;
+}
+
+#a {
+    display: block;
+}
+
+
+
+
+
+
 @media (max-width: 850px) {
     
 .card {
@@ -226,6 +240,14 @@ body {
     margin-top: -9vw;
     margin-left: 4vw;
     animation: heartMoving 0.8s steps(2) infinite;
+}
+
+#a {
+    display: none;
+}
+
+#b {
+    display: block;
 }
 
 }
