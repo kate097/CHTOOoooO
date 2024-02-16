@@ -14,6 +14,13 @@ body {
     color: aliceblue;
 }
 
+body { 
+    -ms-user-select: none; 
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    user-select: none; 
+}
+
 ::selection {
 	background: transparent;
 }
@@ -175,7 +182,6 @@ body {
 	background: #fff7f1;
 	transform-style: preserve-3d;
 	transform: translate(-50%,-50%) perspective(2000px);
-	transition: background 9999999s;
     box-shadow: inset 50px 0 10px rgba(74, 43, 94, 0.5), 0px 0 20px rgba(69, 46, 122, 0.5)
 }
 
