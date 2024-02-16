@@ -15,10 +15,11 @@ body {
 }
 
 body { 
-	-ms-user-select: none; 
-    -moz-user-select: none; 
-	-webkit-user-select: none; 
-	user-select: none; 
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 ::selection {
@@ -161,10 +162,11 @@ body {
 @media (max-width: 850px) {
 
     body { 
-        -ms-user-select: none; 
-        -moz-user-select: none; 
-        -webkit-user-select: none; 
-        user-select: none; 
+        -webkit-user-select: none;
+	    -khtml-user-select: none;
+	    -moz-user-select: none;
+        -ms-user-select: none;
+	    user-select: none;
     }
     
 
@@ -190,7 +192,12 @@ body {
 	background: #fff7f1;
 	transform-style: preserve-3d;
 	transform: translate(-50%,-50%) perspective(2000px);
-    box-shadow: inset 50px 0 10px rgba(74, 43, 94, 0.5), 0px 0 20px rgba(69, 46, 122, 0.5)
+    box-shadow: inset 50px 0 10px rgba(74, 43, 94, 0.5), 0px 0 20px rgba(69, 46, 122, 0.5);
+    -webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+    -ms-user-select: none;
+	user-select: none;
 }
 
 .catDiv {
@@ -246,6 +253,11 @@ body {
     margin-top: -9vw;
     margin-left: 4vw;
     animation: heartMoving 0.8s steps(2) infinite;
+    -webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+    -ms-user-select: none;
+	user-select: none;
 }
 
 .card:active {
