@@ -5,16 +5,8 @@ html, body{
     height: 100%;
 }
 
-@font-face {
-    font-family: 'Shnobel';
-    src: url("../fonts/Shnobel-Regular.ttf") format("truetype");
-    font-style: italic;
-    font-weight: bold;
-    text-rendering: optimizeLegibility;
-}
-
 body {
-	font-family: 'Shnobel' !important;
+	font-family: 'Rubik Bubbles' !important;
     background: #e3dde0; 
 	margin: 0px;
 	padding: 0px;
@@ -51,7 +43,7 @@ body {
     border-top: 2px solid #83284e;
 }
 
-.card:hover {
+.card:active {
 	transform: translate(-50%,-50%) perspective(2000px) rotate(15deg) scale(1.2);
 	box-shadow: inset 20px 0 50px rgba(133, 117, 155, 0.2), 10px 10px 10px rgba(108, 54, 84, 0.2);
 }
@@ -101,7 +93,7 @@ body {
 }
 
 .firstText {
-    font-family: 'Shnobel' !important;
+    font-family: 'Rubik Bubbles' !important;
 	margin: 0px;
 	padding: 0px;
     letter-spacing: 1vw;
@@ -132,11 +124,11 @@ body {
     border-radius: 10%;
 }
 
-.card:hover .imgBox {
+.card:active .imgBox {
 	transform: rotateY(-135deg);
 }
 
-.card:hover .bark {
+.card:active .bark {
 	opacity: 1;
 	transition: .2s ease-in;
     box-shadow: 1vw 0.5vw 2vw rgba(123, 62, 101, 0.4) inset;
@@ -160,6 +152,18 @@ body {
 
 
 @media (max-width: 850px) {
+
+    button {
+        cursor: pointer;
+        user-select: none;
+    }
+
+.rubik-bubbles-regular {
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+      
     
 .card {
 	position: absolute;
@@ -171,7 +175,7 @@ body {
 	background: #fff7f1;
 	transform-style: preserve-3d;
 	transform: translate(-50%,-50%) perspective(2000px);
-	transition: 1s;
+	transition: background 9999999s;
     box-shadow: inset 50px 0 10px rgba(74, 43, 94, 0.5), 0px 0 20px rgba(69, 46, 122, 0.5)
 }
 
@@ -202,7 +206,7 @@ body {
 }
 
 .firstText {
-    font-family: 'Shnobel' !important;
+    font-family: 'Rubik Bubbles' !important;
 	margin: 0px;
 	padding: 0px;
     letter-spacing: 1vw;

@@ -54,3 +54,12 @@ button {
 	color: inherit;
 	background-color: transparent;
 }
+
+input {
+	color: transparent;
+	border: none;
+	text-align: center;
+	display: flex;
+	padding: 0;
+	outline: none;
+}
