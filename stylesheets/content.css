@@ -15,10 +15,10 @@ body {
 }
 
 body { 
-    -ms-user-select: none; 
+	-ms-user-select: none; 
     -moz-user-select: none; 
-    -webkit-user-select: none; 
-    user-select: none; 
+	-webkit-user-select: none; 
+	user-select: none; 
 }
 
 ::selection {
@@ -159,6 +159,14 @@ body {
 
 
 @media (max-width: 850px) {
+
+    body { 
+        -ms-user-select: none; 
+        -moz-user-select: none; 
+        -webkit-user-select: none; 
+        user-select: none; 
+    }
+    
 
     button {
         cursor: pointer;
